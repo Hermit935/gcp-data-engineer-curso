@@ -1,6 +1,6 @@
 provider "google" {
   project = "gcp-engineer-curso"
-  region  = "us-central"
+  region  = "us-central1"
 }
 
 resource "google_project_service" "apis" {
