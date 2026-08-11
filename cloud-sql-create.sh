@@ -1,0 +1,1 @@
+gcloud sql instances create my-instance-sql --database-version=POSTGRES_13 --cpu=1  --memory=4GB --region=us-central1 --root-password=supersercreto
