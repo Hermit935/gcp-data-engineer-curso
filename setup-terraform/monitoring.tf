@@ -12,7 +12,7 @@ resource "google_monitoring_uptime_check_config" "http" {
         type = "uptime_url"
         labels = {
             project_id = "gcp-engineer-curso"
-            host       = "10.0.1.2" 
+            host       = "34.9.247.222" 
         }
     }
 }
